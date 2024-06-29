@@ -1,0 +1,32 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="70px"
+    android:gravity="center"
+    android:background="#F6F0F0"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD STUDENT"
+        android:textStyle="bold"
+        android:layout_margin="10px"
+        android:textColor="@color/white"
+        android:background="#574b90"
+        android:id="@+id/add"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VIEW ALL STUDENT"
+        android:textStyle="bold"
+        android:layout_margin="10px"
+        android:textColor="@color/white"
+        android:background="#574b90"
+        android:id="@+id/view"/>
+
+
+
+
+</LinearLayout>
